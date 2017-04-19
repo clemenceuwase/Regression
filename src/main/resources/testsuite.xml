@@ -6,7 +6,7 @@
 		<password>mas</password>
 	</credentials>
 	
-	<device name="himaruhl_00401">
+	<device name="angler">
 		<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>	
 		<testcase name="Reg_And_Voo_Vod_2a" timeout="4"/>
 			</device>
