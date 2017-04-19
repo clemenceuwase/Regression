@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+    <version>1.0.2-SNAPSHOT</version>
+    <groupId>com.jamosolutions</groupId>
+    <artifactId>jamoautomation</artifactId>
+
+	<distributionManagement>
+		  <repository>
+		     <id>deployment</id>
+		     <name>Internal Releases</name>
+		     <url>http://10.32.153.216:8081/nexus/content/repositories/releases/</url>
+		  </repository>
+		  <snapshotRepository>
+		     <id>deployment</id>
+		     <name>Internal Snapshots</name>
+		     <url>http://10.32.153.216:8081/nexus/content/repositories/snapshots/</url>
+		  </snapshotRepository>
+	</distributionManagement>
+	<repositories>
+	    <repository>
+	      <id>nexus-snapshot</id>
+	      <name>Internal snapshots</name>
+	      <url>http://10.32.153.216:8081/nexus/content/repositories/snapshots/</url>
+	    </repository>
+		<repository>
+	      <id>nexus-release</id>
+	      <name>Internal releases</name>
+	      <url>http://10.32.153.216:8081/nexus/content/repositories/releases/</url>
+	    </repository>
+	</repositories>	
+	<pluginRepositories>
+		<pluginRepository>
+	      <id>nexus-snapshot</id>
+	      <name>Internal snapshots</name>
+	      <url>http://10.32.153.216:8081/nexus/content/repositories/snapshots/</url>
+		</pluginRepository>
+		<pluginRepository>
+	      <id>nexus-release</id>
+	      <name>Internal releases</name>
+	      <url>http://10.32.153.216:8081/nexus/content/repositories/releases/</url>
+		</pluginRepository>
+	</pluginRepositories>
+    <prerequisites>
+        <maven>3.1.0</maven>
+    </prerequisites>
+	<dependencies>
+		<dependency>
+			<groupId>com.jamosolutions</groupId>
+	        <artifactId>jamoautomator-maven-plugin</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+	</dependencies>
+    <build>
+   		<plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <version>3.1</version>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+			
+			<plugin>
+		        <groupId>com.jamosolutions</groupId>
+		        <artifactId>jamoautomator-maven-plugin</artifactId>
+		        <version>0.0.1-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+						  <goal>run</goal>
+						</goals>
+						<!--
+						<configuration>
+							<descriptor>src/main/resources/testsuite.xml</descriptor>
+						</configuration>
+						-->
+				  </execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.12.4</version>
+				<executions>
+					<!-- This is a hack to get Jenkins to publish Karma test results when running a Maven project: we run 0 surefire tests, so Jenkins publishes the report of the Karma tests. -->
+					<execution>
+						<id>dummySureFire</id>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+         </plugins>
+    </build>
+</project>
