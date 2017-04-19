@@ -1,13 +1,13 @@
 <!--testsuite url="http://192.168.0.100" name="KBC Test Suite"-->
 <testsuite url="http://10.32.153.224" name="KBC Test Suite">
 	<credentials>
-		<account>SAM</account>
+		<account>Testing</account>
 		<username>sammartens@gmail.com</username>
 		<password>mas</password>
 	</credentials>
-	<device name="Frederik's iPad">
+	<device name="jamo iPhone9">
 		<!--<testcase name="Demo" timeout="2"/>-->
-		<testcase name="Demo" timeout="4"/>
+		<testcase name="Reg_iOS_UICatalog_sync" timeout="4"/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
