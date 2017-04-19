@@ -1,0 +1,17 @@
+<!--testsuite url="http://192.168.0.100" name="KBC Test Suite"-->
+<testsuite url="http://10.32.153.224" name="KBC Test Suite">
+	<credentials>
+		<account>SAM</account>
+		<username>sammartens@gmail.com</username>
+		<password>mas</password>
+	</credentials>
+	<device name="Frederik's iPad">
+		<!--<testcase name="Demo" timeout="2"/>-->
+		<testcase name="Demo" timeout="4"/>
+	</device>
+	<!--device name="occam">
+		<testcase name="soup" timeout="4"/>
+		<testcase name="main" timeout="8"/>
+	</device-->
+	<!--TODO support also test case and device-->
+</testsuite>
