@@ -14,6 +14,7 @@
 	</device>-->
 	
 `   <device name="himaruhl_00401">
+	<testcase name="log" timeout="4"/>
 		<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>
 		
 	</device>
