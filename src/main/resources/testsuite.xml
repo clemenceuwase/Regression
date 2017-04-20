@@ -6,7 +6,7 @@
 		<password>mas</password>
 	</credentials>
 	
-	<device name="jamo iPhone9">
+	<device name="Blue iphone">
 	<testcase name="Alert" timeout="8"/>
 	</device>
 	<!--device name="occam">
