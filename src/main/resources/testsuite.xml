@@ -6,10 +6,9 @@
 		<password>mas</password>
 	</credentials>
 	
-	<device name="angler">
-		<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>	
-		<testcase name="Reg_And_Voo_Vod_2a" timeout="4"/>
-			</device>
+	<device name="jamo iPhone9">
+	<testcase name="Reg_iOS_UICatalog_sync" timeout="8"/>
+	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
 		<testcase name="main" timeout="8"/>
