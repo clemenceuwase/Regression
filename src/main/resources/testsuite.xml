@@ -16,6 +16,6 @@
 `   device name="himaruhl_00401">
 		<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>
 		
-	</device-->
+	</device>
 	<!--TODO support also test case and device-->
 </testsuite>
