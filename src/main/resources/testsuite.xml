@@ -7,7 +7,7 @@
 	</credentials>
 	
 	<device name="jamo iPhone9">
-	<testcase name="Reg_iOS_UICatalog_sync" timeout="8"/>
+	<testcase name="Alert" timeout="8"/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
