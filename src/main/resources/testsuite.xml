@@ -9,6 +9,7 @@
 	<device name="Blue iphone">
 	<testcase name="Activity" timeout="8"/>
 	<testcase name="Alert" timeout="8"/>
+
 	
 	</device>
 	<!--device name="occam">
