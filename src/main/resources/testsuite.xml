@@ -6,15 +6,16 @@
 		<password>mas</password>
 	</credentials>
 	
-	<device name="Blue iphone">
+	<!--<device name="Blue iphone">
 	<testcase name="Activity" timeout="8"/>
 	<testcase name="Alert" timeout="8"/>
 
 	
-	</device>
-	<!--device name="occam">
-		<testcase name="soup" timeout="4"/>
-		<testcase name="main" timeout="8"/>
+	</device>-->
+	
+`   device name="himaruhl_00401">
+		<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>
+		
 	</device-->
 	<!--TODO support also test case and device-->
 </testsuite>
