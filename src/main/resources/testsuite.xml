@@ -10,7 +10,7 @@
 	if you have 2 or more devices with the same name this will not work though 
 	-->
 	<device name="angler" udid="ENU7N15A17018372">
-		<testcase name="Reg_voo_listcell_datatable="4" timeout='8'/>
+		<testcase name="Reg_voo_listcell_datatable" timeout='8'/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
