@@ -11,6 +11,9 @@
 	-->
 	<device name="angler" udid="ENU5T15C15000771">
 		<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
+		<testcase name="Reg_voo_while_ui" timeout="8"/>
+		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
+		<testcase name="Reg_voo_call_testcase_parameters" timeout="8"/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
