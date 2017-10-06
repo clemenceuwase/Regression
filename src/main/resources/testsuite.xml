@@ -1,22 +1,20 @@
-
-<testsuite url="https://jamo-candidate.appspot.com" name="Testing">
+<!--testsuite url="http://192.168.0.100" name="KBC Test Suite"-->
+<testsuite url="http://10.32.153.224" name="KBC Test Suite">
 	<credentials>
-		<account>Testing</account>
+		<account>SAM</account>
 		<username>sammartens@gmail.com</username>
 		<password>mas</password>
 	</credentials>
-	
-	<device name="Blue iphone">
-	<testcase name="Activity" timeout="8"/>
-	<!--<testcase name="Alert" timeout="8"/>-->
-
-	
+	<!--
+	you can omit the udid and find it based on the device name: 
+	if you have 2 or more devices with the same name this will not work though 
+	-->
+	<device name="razor" udid="09d739ef">
+		<testcase name="login tablet" timeout="4"/>
 	</device>
-	
-`   <device name="himaruhl_00401">
-	<testcase name="log" timeout="4"/>
-	<!--	<testcase name="Reg_And_Voo_Vod_4" timeout="4"/>-->
-		
-	</device>
+	<!--device name="occam">
+		<testcase name="soup" timeout="4"/>
+		<testcase name="main" timeout="8"/>
+	</device-->
 	<!--TODO support also test case and device-->
 </testsuite>
