@@ -1,5 +1,5 @@
 <!--testsuite url="http://192.168.0.100" name="KBC Test Suite"-->
-<testsuite url="http://jamo-candidate.appspot.com" name="Regression">
+<testsuite url="https://jamo-candidate.appspot.com" name="Regression">
 	<credentials>
 		<account>REGRESSION</account>
 		<username>sammartens@gmail.com</username>
