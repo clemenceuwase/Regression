@@ -9,8 +9,8 @@
 	you can omit the udid and find it based on the device name: 
 	if you have 2 or more devices with the same name this will not work though 
 	-->
-	<device name="razor" udid="09d739ef">
-		<testcase name="login tablet" timeout="4"/>
+	<device name="angler" udid="ENU7N15A17018372">
+		<testcase name="Reg_voo_listcell_datatable="4"/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
