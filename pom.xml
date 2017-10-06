@@ -21,7 +21,7 @@
         <maven>3.1.0</maven>
     </prerequisites>
 	<properties>
-        <automator.maven.version>1.0.0</automator.maven.version>
+        <automator.maven.version>0.0.7-SNAPSHOT</automator.maven.version>
 	</properties>
 	<dependencies>
 		<dependency>
