@@ -14,8 +14,6 @@
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
 		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
 		<testcase name="Reg_voo_call_testcase_parameters" timeout="8"/>
-	</device>
-	<device name="angler" udid="ENU7N15A17018372">
 		<testcase name="Reg_hotel_objects_1299" timeout="8"/>
 		<testcase name="Reg_hotel_objects_1299-1" timeout="8"/>
 		<testcase name="Reg_hotel_Verify_1299" timeout="8"/>
