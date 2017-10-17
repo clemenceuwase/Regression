@@ -10,16 +10,15 @@
 	if you have 2 or more devices with the same name this will not work though 
 	-->
 	<device name="angler" udid="ENU5T15C15000771">
-	<testcase name="Copy of And Reg hotel menu 1234 fgsgdfsgs 9551rtr % 6@l£42asdfadsfadsfasdfadsfadsfdasfasdfdasfadsfdasf" timeout="8"/>
-		
-		<!--<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
+	
+		<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
 		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
 		<testcase name="Reg_voo_call_testcase_parameters" timeout="8"/>
 		<testcase name="Reg_hotel_objects_1299" timeout="8"/>
 		<testcase name="Reg_hotel_objects_1299-1" timeout="8"/>
 		<testcase name="Reg_hotel_Verify_1299" timeout="8"/>
-		<testcase name="Reg_hotel_sync_1299" timeout="8"/>-->
+		<testcase name="Reg_hotel_sync_1299" timeout="8"/>
 	</device>
 	<!--device name="occam">
 		<testcase name="soup" timeout="4"/>
