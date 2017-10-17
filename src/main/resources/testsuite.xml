@@ -10,7 +10,7 @@
 	if you have 2 or more devices with the same name this will not work though 
 	-->
 	<device name="angler" udid="ENU5T15C15000771">
-		<testcase name="Copy of And Reg hotel menu 1234 fgsgdfsgs 9551rtr % 6@l£42asdfadsfadsfasdfadsfadsfdasfasdfdasfadsfdasf="8"/>
+	<testcase name="Copy of And Reg hotel menu 1234 fgsgdfsgs 9551rtr % 6@l£42asdfadsfadsfasdfadsfadsfdasfasdfdasfadsfdasf" timeout="8"/>
 		
 		<!--<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
