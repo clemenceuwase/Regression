@@ -18,7 +18,6 @@
 		
 		
 		<testcase name="Reg_hotel_objects_1299" timeout="12"/>
-		<testcase name="Reg_hotel_objects_1299-1" timeout="12"/>
 		<testcase name="Reg_hotel_Verify_1299" timeout="12"/>
 		<testcase name="Reg_hotel_sync_1299" timeout="12"/>
 		<testcase name="Reg_hotel_DataTable_1299" timeout="12"/>
