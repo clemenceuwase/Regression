@@ -17,12 +17,12 @@
 		<testcase name="Reg_voo_datapoint_1299" timeout="8"/>-->
 		
 		
-		<testcase name="Reg_hotel_objects_1299" timeout="600"/>
-		<testcase name="Reg_hotel_Verify_1299" timeout="600"/>
-		<testcase name="Reg_hotel_sync_1299" timeout="600"/>
-		<testcase name="Reg_hotel_DataTable_1299" timeout="600"/>
-		<testcase name="And_Reg_hotel_Menu" timeout="600"/>
-		<testcase name="Reg_hotel_DataPoint_1299" timeout="600"/>
+		<testcase name="Reg_hotel_objects_1299" timeout="60"/>
+		<testcase name="Reg_hotel_Verify_1299" timeout="60"/>
+		<testcase name="Reg_hotel_sync_1299" timeout="60"/>
+		<testcase name="Reg_hotel_DataTable_1299" timeout="60"/>
+		<testcase name="And_Reg_hotel_Menu" timeout="60"/>
+		<testcase name="Reg_hotel_DataPoint_1299" timeout="60"/>
 		
 		
 	</device>
