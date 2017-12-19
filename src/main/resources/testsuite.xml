@@ -14,7 +14,7 @@
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
 		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
 		<testcase name="Reg_voo_call_testcase_parameters" timeout="8"/>
-		<testcase name="Reg_voo_datapoint_1299" timeout="8"/>-->
+		<testcase name="Reg_voo_datapoint_1299" timeout="8"/>
 		
 		
 		<testcase name="Reg_hotel_objects_1299" timeout="60"/>
@@ -23,7 +23,7 @@
 		<testcase name="Reg_hotel_DataTable_1299" timeout="60"/>
 		<testcase name="And_Reg_hotel_Menu" timeout="60"/>
 		<testcase name="Reg_hotel_DataPoint_1299" timeout="60"/>
-		
+		-->
 		
 	</device>
 	<!--device name="occam">
