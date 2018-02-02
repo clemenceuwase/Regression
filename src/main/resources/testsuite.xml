@@ -9,8 +9,8 @@
 	you can omit the udid and find it based on the device name: 
 	if you have 2 or more devices with the same name this will not work though 
 	-->
-	<device name="gm5">
-		<!--<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
+<!--	<device name="gm5">
+		<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
 		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
 		<testcase name="Reg_voo_call_testcase_parameters" timeout="8"/>
@@ -23,12 +23,12 @@
 		<testcase name="Reg_hotel_DataTable_1299" timeout="60"/>
 		<testcase name="And_Reg_hotel_Menu" timeout="60"/>
 		<testcase name="Reg_hotel_DataPoint_1299" timeout="60"/>
-		-->
 		
-	</device>
-	<!--device name="occam">
-		<testcase name="soup" timeout="4"/>
-		<testcase name="main" timeout="8"/>
+		
+	</device>-->
+	<!--device name="jamo's iPhone">
+		<testcase name="BUTTON_PICKERVIEW_TEXTFIELD_ALERTCONTROLLER" timeout="4"/>
+		
 	</device-->
 	<!--TODO support also test case and device-->
 </testsuite>
