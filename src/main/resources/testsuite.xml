@@ -26,7 +26,7 @@
 		
 		
 	</device>-->
-	<device name="jamo's iPhone">
+	<device UDID="9eeaf074d10ae08f8860fed80cab91421806c9e7">
 		<testcase name="BUTTON_PICKERVIEW_TEXTFIELD_ALERTCONTROLLER" timeout="4"/>
 		
 	</device>
