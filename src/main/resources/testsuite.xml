@@ -9,7 +9,7 @@
 	you can omit the udid and find it based on the device name: 
 	if you have 2 or more devices with the same name this will not work though 
 	-->
-<!--	<device name="gm5">
+<!--	<device name="angler">
 		<testcase name="Reg_voo_listcell_datatable" timeout="8"/>
 		<testcase name="Reg_voo_while_ui" timeout="8"/>
 		<testcase name="Reg_voo_while_numeric_iterator" timeout="8"/>
@@ -26,7 +26,7 @@
 		
 		
 	</device>-->
-	<device name="jamo's iPhone" udid="9eeaf074d10ae08f8860fed80cab91421806c9e7">
+	<device name="jacques's iPhone" udid="addde441b40bfad31d4221d2ee1bcfa303b6fd9a">
 		<testcase name="BUTTON_PICKERVIEW_TEXTFIELD_ALERTCONTROLLER" timeout="4"/>
 		
 	</device>
