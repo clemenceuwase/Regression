@@ -24,9 +24,9 @@
 		<testcase name="And_Reg_hotel_Menu" timeout="60"/>
 		<testcase name="Reg_hotel_DataPoint_1299" timeout="60"/>
 		
-		udid="addde441b40bfad31d4221d2ee1bcfa303b6fd9a"
+		
 	</device>-->
-	<device name="angler" >
+	<device name="angler" udid="CVH7N15C21000997">
 		<testcase name="test3" timeout="4"/>
 		
 	</device>
