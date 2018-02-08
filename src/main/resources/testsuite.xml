@@ -1,9 +1,9 @@
 <!--testsuite url="http://192.168.0.100" name="KBC Test Suite"-->
 <testsuite url="https://jamo-candidate.appspot.com" name="Regression">
 	<credentials>
-		<account>REGRESSION</account>
-		<username>sammartens@gmail.com</username>
-		<password>mas</password>
+		<account>testName</account>
+		<username>jacques.wouters@jamosolutions.com</username>
+		<password>Jaw008Jaw</password>
 	</credentials>
 	<!--
 	you can omit the udid and find it based on the device name: 
@@ -26,8 +26,8 @@
 		
 		udid="addde441b40bfad31d4221d2ee1bcfa303b6fd9a"
 	</device>-->
-	<device name="Jacques" >
-		<testcase name="BUTTON_PICKERVIEW_TEXTFIELD_ALERTCONTROLLER" timeout="4"/>
+	<device name="Jacques's iPhone" >
+		<testcase name="Test" timeout="4"/>
 		
 	</device>
 	<!--TODO support also test case and device-->
